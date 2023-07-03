@@ -146,6 +146,6 @@ body {
 
 @media screen and (max-width: 480px) {
   #main-header h1 {
-    word-spacing: -40px; /* Adjust the value to your liking */
+    word-spacing: 10px; /* Adjust the value to your liking */
   }
 }

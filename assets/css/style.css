@@ -69,12 +69,12 @@ body {
 #main-header h1 span.special-span {
   position: absolute;
   transform-origin: top-right;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 1px;
   word-spacing:  0px;
   top:0;
   right:0;
-  transform: rotate(90deg) translateY(-110%) translateX(170%);
+  transform: rotate(90deg) translateY(-112%) translateX(170%);
 }  
 
 

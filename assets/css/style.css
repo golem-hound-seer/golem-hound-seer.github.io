@@ -54,7 +54,7 @@ body {
   padding: 0;
   font-weight: 1000;
   letter-spacing: 2px;
-  word-spacing: 5px;  
+  word-spacing: 2px;  
   line-height: 0.8em; 
   /* line-height: 1.2em; */
 }
@@ -132,7 +132,7 @@ body {
   #main-header h1 {
     font-size: 48px; /* Adjust the font size for smaller screens */
     line-height: 1.2em; /* Adjust the line height for better readability */
-    word-spacing: 5px; /* Reset the word spacing */
+    word-spacing: 2px; /* Reset the word spacing */
   }
 
   #main-header h1 span.special-span {

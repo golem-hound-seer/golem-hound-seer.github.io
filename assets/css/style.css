@@ -132,7 +132,7 @@ body {
   #main-header h1 {
     font-size: 48px; /* Adjust the font size for smaller screens */
     line-height: 1.2em; /* Adjust the line height for better readability */
-    word-spacing: 10px;; /* Reset the word spacing */
+    word-spacing: normal; /* Reset the word spacing */
   }
 
   #main-header h1 span.special-span {

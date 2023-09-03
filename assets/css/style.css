@@ -74,9 +74,17 @@ body {
   word-spacing:  0px;
   top:0;
   right:0;
-  transform: rotate(90deg) translateY(-112%) translateX(170%);
+  transform: rotate(90deg) translateY(-215%) translateX(190%);  /* 112 original */
 }  
 
+#main-header h1 span.subtitle-span {   /* Need to configue; */
+  position: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+  word-spacing:  0px;
+  top:0;
+  right:0;
+}  
 
 .image-container {
   text-align: center;

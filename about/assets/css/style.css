@@ -1,0 +1,160 @@
+body {
+    background-color: #FFFEF2;
+    font-family: 'Source Code Pro', Arial, Helvetica;
+    margin: 0;
+  }
+  
+  .max-container {
+    max-width: 1024px;
+    margin: auto;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 5vh auto;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+  
+  }
+  
+  #navbar{
+    text-align: auto;
+  }
+  
+  #navbar ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  #navbar li {
+    display: inline-flex;
+  }
+  
+  #navbar a {
+    font-family: 'Source Code Pro';
+    color: black;
+    text-transform: uppercase;
+    font-size: 28px;
+  }
+  
+  #main-header {
+    font-family: 'Source Code Pro';
+    color: black;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+  }
+  
+  #main-header h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    /* word-spacing: -40px;  */
+    line-height: 0.8em; 
+    /* line-height: 1.2em; */
+  }
+  
+  #main-header h1 span {
+    /* display: inline-block; */
+    display: block;
+    white-space: nowrap;
+  }
+  
+  
+  #main-header h1 span.special-span {
+    position: absolute;
+    transform-origin: top-right;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing:  0px;
+    top:0;
+    right:0;
+    transform: rotate(90deg) translateY(-112%) translateX(190%);
+  }  
+  
+  #main-header h1 span.subtitle-span {   /* Need to configue; */
+    position: center;
+    font-size: 24px;
+    letter-spacing: 1px;
+    word-spacing:  0px;
+    top:0;
+    right:0;
+  }  
+  
+  .image-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .image-container {
+    -webkit-animation: squiggly-anim 0.34s linear infinite;
+            animation: squiggly-anim 0.34s linear infinite;
+  }
+  
+  @keyframes squiggly-anim {
+    0% {
+      filter: url("#squiggly-0");
+    }
+    25% {
+      filter: url("#squiggly-1");
+    }
+    50% {
+      filter: url("#squiggly-2");
+    }
+    75% {
+      filter: url("#squiggly-3");
+    }
+    100% {
+      filter: url("#squiggly-4");
+    }
+  }
+  
+  /* Add a media query for screens with a maximum width of 600px (adjust the value as needed) */
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 100%; /* Adjust the container width to fill the entire viewport */
+    }
+  
+    #navbar {
+      text-align: center; /* Center align the navigation links */
+    }
+  
+    #navbar a {
+      font-size: 24px; /* Adjust the font size of navigation links */
+    }
+  
+    #main-header {
+      text-align: center; /* Center align the main header */
+    }
+  
+    #main-header h1 {
+      font-size: 48px; /* Adjust the font size for smaller screens */
+      line-height: 1.2em; /* Adjust the line height for better readability */
+      /* word-spacing: 10px; */ /* Reset the word spacing */
+    }
+  
+    #main-header h1 span.special-span {
+      display: none; /* Hide the special span element on smaller screens */
+    }
+  
+    .image-container {
+      margin-top: 30px; /* Adjust the margin for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #main-header h1 {
+      /* word-spacing: 10px; */ /* Adjust the value to your liking */
+    }
+  }
+  

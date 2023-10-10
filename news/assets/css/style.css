@@ -93,6 +93,11 @@ body {
     font-size: 14px;
   }
   
+  .news-container p {
+    font-size: 14px;
+  }
+
+
   .image-container {
     text-align: center;
     margin-top: 50px;

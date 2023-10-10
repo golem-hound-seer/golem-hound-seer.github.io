@@ -74,8 +74,8 @@ body {
     word-spacing:  0px;
     top:0;
     right:0;
-    transform: rotate(90deg) translateY(-112%) translateX(190%);
-  }  
+    transform: rotate(90deg) translateY(-112%) translateX(30%);
+  }                                         /* x original 190*/                     
   
   #main-header h1 span.subtitle-span {   /* Need to configue; */
     position: center;
@@ -84,7 +84,14 @@ body {
     word-spacing:  0px;
     top:0;
     right:0;
-  }  
+  }
+  
+  .news-container {
+    font-family: 'Source Code Pro';
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
   
   .image-container {
     text-align: center;
@@ -96,28 +103,7 @@ body {
     height: auto;
   }
   
-  .image-container {
-    -webkit-animation: squiggly-anim 0.34s linear infinite;
-            animation: squiggly-anim 0.34s linear infinite;
-  }
   
-  @keyframes squiggly-anim {
-    0% {
-      filter: url("#squiggly-0");
-    }
-    25% {
-      filter: url("#squiggly-1");
-    }
-    50% {
-      filter: url("#squiggly-2");
-    }
-    75% {
-      filter: url("#squiggly-3");
-    }
-    100% {
-      filter: url("#squiggly-4");
-    }
-  }
   
   /* Add a media query for screens with a maximum width of 600px (adjust the value as needed) */
   @media screen and (max-width: 600px) {
